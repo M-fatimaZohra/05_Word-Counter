@@ -15,8 +15,8 @@ const wordsCheck = YourSentence.sentence.trim().split(" ");
 let Words = YourSentence.sentence;
 
 console.log(
-  `\nYour Sentence: "${chalk.bold.underline.blackBright.bgWhite(Words)}".`
+  `\nYour Sentence: "${chalk.bold.underline.yellowBright(Words)}".`
 );
 console.log(
-  `Words Contain in your sentence: ${chalk.underline.white(wordsCheck.length)}`
+  `Words Contain in your sentence: ${chalk.underline.yellowBright(wordsCheck.length)}`
 );
